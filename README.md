@@ -1,5 +1,7 @@
 # Pathways from Public-Health Shock Exposure to Psychological Distress
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19631187.svg)](https://doi.org/10.5281/zenodo.19631187)
+
 Analysis code and supplementary materials for the paper:
 
 > **Differential associations between worry sub-domains and depression,
@@ -84,13 +86,12 @@ aggregate output and code; no individual-level data are redistributed.
 
 ## Citation
 
-If you use this code, please cite the paper (to be filled in on acceptance)
-and, if you use the code directly, the Zenodo snapshot:
+If you use this code, please cite both the paper (to be filled in on
+acceptance) and the Zenodo snapshot of this repository:
 
-```
-[GitHub repo snapshot DOI — to be minted via Zenodo integration upon first
-  tagged release]
-```
+> Kun H. *Pathways from public-health shock exposure to psychological
+> distress in vulnerable LMIC communities — analysis code.* Zenodo; 2026.
+> https://doi.org/10.5281/zenodo.19631187
 
 ## Licence
 
