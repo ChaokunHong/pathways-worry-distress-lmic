@@ -23,7 +23,7 @@
 
 <!-- Methods-section references (cited [21]-[45]; Zotero will reformat on export) -->
 
-21. [SPEAR study primary data paper — to insert from Zotero]
+21. Van Nuil JI, Friska D, Kekalih A, et al. COVID-19 Social Science and Public Engagement Action Research in Vietnam, Indonesia and Nepal (SPEAR): Protocol for a mixed methods study exploring the experiences and impacts of COVID-19 for healthcare workers and vulnerable communities. Wellcome Open Res. 2021;6:352. doi:10.12688/wellcomeopenres.17314.1
 
 22. von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP; STROBE Initiative. The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies. Lancet. 2007;370(9596):1453-1457. doi:10.1016/S0140-6736(07)61602-X
 
@@ -134,7 +134,7 @@
 
 | # | 引文 | 文中位置 | 文中claim | 存在 | 准确 | 支撑 | 备注 |
 |---|---|---|---|---|---|---|---|
-| 21 | SPEAR 数据来源论文 | §2.1 / §2.2 | 数据来源、13 站点抽样与访谈程序 | ⬜ | ⬜ | ⬜ | **占位符** — 你自己的论文，从 Zotero 贴正式引文 |
+| 21 | Van Nuil JI et al. 2021 (SPEAR protocol) | §2.1 / §2.2 | 数据来源、13 站点抽样与访谈程序 | ✅ | ✅ | ✅ | *Wellcome Open Res* 6:352。DOI 10.12688/wellcomeopenres.17314.1。SPEAR 原始协议论文 |
 | 22 | von Elm et al. 2007 (STROBE) | §2.1 | "Reporting follows the STROBE recommendations" | ✅ | ✅ | ✅ | *Lancet* 370:1453-57。观察性研究报告规范 canonical 引文。被引 75,000+ |
 | 23 | Tonsing KN 2014 | §2.2 | "DASS-21 has been validated in Southeast Asian LMIC settings" | ✅ | ✅ | ✅ | *Asian J Psychiatry* 8:63-66。**Nepal 本土 DASS-21 validation**，三国中 Nepal-specific。三因子结构、α > 0.78；被引 180+。配合 [24] Le 2017 覆盖 Nepal + Vietnam 两国 |
 | 24 | Le et al. 2017 | §2.2 | 同上 | ✅ | ✅ | ✅ | *PLoS One* 12(7):e0180557。**Vietnam 青少年 DASS-21 validation** — 越南是你三国之一，SE Asian LMIC 完美命中。开源全文可核 |
@@ -164,8 +164,7 @@
 
 | 状态 | 数量 |
 |---|---|
-| ✅✅✅ 全部通过 | **24/25** |
-| ⬜ 未核对（占位符） | **1/25** — [21] SPEAR，你自己贴 |
+| ✅✅✅ 全部通过 | **25/25** |
 | ❌ 虚构/错误 | 0/25 |
 | 🚫 被撤稿 | 0/25 |
 
@@ -176,8 +175,6 @@
 | [23] DASS-21 LMIC 依据 | Oei et al. 2013（样本非 LMIC，claim 不符） | **Tonsing KN 2014** *Asian J Psychiatry* 8:63-66（Nepal 本土 validation） |
 | [33] mitml 版本号 | 推测 0.4-5 | **确认 0.4.5** (released 2023-03-08)，已通过 `packageVersion("mitml")` 核对 |
 
-## 剩余 1 个待你处理
+## 剩余 0 个待你处理
 
-| 优先级 | 引文 | 要处理什么 |
-|---|---|---|
-| 🔴 | **[21] SPEAR** | 必做。从 Zotero 取正式引文替换占位符 |
+所有 25 条 Methods 引用均已核对并通过 ✅
