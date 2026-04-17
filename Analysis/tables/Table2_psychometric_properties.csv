@@ -1,0 +1,14 @@
+construct,n_items,n_complete,alpha,omega_total
+Worry: Health fears,5,1456,0.87,0.883
+Worry: Economic concerns,7,1394,0.816,0.832
+Worry: Basic needs,3,1471,0.837,0.838
+Worry: Social/family,4,1457,0.68,0.691
+Worry: Safety/stigma,2,1458,0.861,0.862
+Worry: Total (original),21,1320,0.916,0.922
+Behavioral compliance,9,1049,0.885,0.894
+Prevention: Evidence-based,10,1346,0.784,0.813
+Prevention: Folk/alternative,6,1324,0.653,0.661
+Lifestyle disruption: Total,14,1258,0.813,0.821
+DASS: Depression,7,1464,0.867,0.874
+DASS: Anxiety,7,1472,0.806,0.816
+DASS: Stress,7,1476,0.864,0.868

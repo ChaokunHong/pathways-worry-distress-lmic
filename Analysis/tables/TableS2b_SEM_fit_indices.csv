@@ -1,0 +1,3 @@
+model,post_check,CFI,TLI,RMSEA,SRMR
+5-Factor Worry (original),FALSE,0.997,0.998,0.054,0.08
+4-Factor Worry (merged material),FALSE,0.997,0.997,0.058,0.085

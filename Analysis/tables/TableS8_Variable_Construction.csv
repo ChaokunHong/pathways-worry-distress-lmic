@@ -1,0 +1,29 @@
+Block,Variable,Items (raw),N items,Item scale,Scoring rule,Possible range,Missing-data rule,Cronbach α (analytic sample),Notes
+Outcome,Depression (DASS-21),"q47_3, q47_5, q47_10, q47_13, q47_16, q47_17, q47_21",7,0–3 Likert (past week),"Sum of items; prorated to 7 if ≥6 of 7 answered, then ×2 (DASS-42 metric)",0–42,Treated as missing if <6 of 7 items answered,0.867,Z-standardised for regression
+Outcome,Anxiety (DASS-21),"q47_2, q47_4, q47_7, q47_9, q47_15, q47_19, q47_20",7,0–3 Likert,Same as Depression,0–42,Same as Depression,0.806,Z-standardised for regression
+Outcome,Stress (DASS-21),"q47_1, q47_6, q47_8, q47_11, q47_12, q47_14, q47_18",7,0–3 Likert,Same as Depression,0–42,Same as Depression,0.864,Z-standardised for regression
+Exposure,Worry: Health fears,"q51_2 quarantine, q51_3 infected, q51_4 severe illness, q51_5 death, q51_6 health system",5,0–3 Likert (4-point worry),Sum of items (NA-aware),0–15,Treated as missing if any item missing,0.870,Entered into regression on raw summed scale (not z-standardised); ICC = 0.226
+Exposure,Worry: Economic,"q51_10 income, q51_14 rent, q51_15 debt, q51_16 agriculture, q51_17 harvest, q51_18 produce, q51_21 recession",7,0–3 Likert,Sum,0–21,Same,0.816,Raw scale; ICC = 0.126
+Exposure,Worry: Basic needs,"q51_11 food, q51_12 water, q51_13 medicine",3,0–3 Likert,Sum,0–9,Same,0.837,Raw scale; ICC = 0.419 (highest community clustering)
+Exposure,Worry: Social disruption,"q51_1 lonely, q51_7 education, q51_8 teaching, q51_9 children at home",4,0–3 Likert,Sum,0–12,Same,0.680,Raw scale; ICC = 0.149
+Exposure,Worry: Safety/stigma,"q51_19 stigma, q51_20 abuse",2,0–3 Likert,Sum,0–6,Same,0.861,Raw scale; ICC = 0.348; also decomposed into within-site and between-site components in exploratory analyses (§2.3.7)
+Exposure,Worry: Total (sensitivity),All 21 q51 items,21,0–3 Likert,Sum,0–63,Same,0.910,Used in sensitivity analysis only (§2.3.8 ii)
+Block 1 (demographics),Age,q2_age,1,Years (continuous),Direct,18–95 (observed),Listwise within imputation model,—,NA
+Block 1 (demographics),Gender (female),q1_sex_bin,1,Binary,Female = 1,0/1,Listwise,—,NA
+Block 1 (demographics),Ethnic minority,q4_min_ethnicity,1,Binary (country-specific),Direct,0/1,Listwise,—,NA
+Block 1 (demographics),Education,q5_education,1,Ordinal (0–7),Direct (treated as ordinal integer),0–7,Listwise,—,NA
+Block 1 (demographics),Employment,q6_employment_cat,1,Categorical (4 levels),Full-time / Part-time / Student / Not working,—,Listwise,—,NA
+Block 1 (demographics),Comorbidity count,comorbidity_score,1,Count,Direct (precomputed),0–5+,Listwise,—,NA
+Block 1 (demographics),Self-rated general health,q33_gen_health,1,Ordinal (1–5),Higher = better,1–5,Listwise,—,NA
+Block 2 (crisis context),Perceived health threat,q27_1 to q27_6 (6 items),6,0–5 Likert,Sum (precomputed perceived_risk_score),0–30,Listwise,0.85,NA
+Block 2 (crisis context),Self-assessed infection risk,q31_risk_self,1,0–4 Likert,Direct,0–4,Listwise (≥90 → NA),—,NA
+Block 2 (crisis context),Health-system trust,q28_prevention + q29_health_system,2,0–4 Likert each,Sum,0–8,Listwise (≥90 → NA),—,NA
+Block 2 (crisis context),Livelihood disruption,"q8_1 hours, q8_3 income, q8_6 lost job, q8_8 quit job",4,0–3 Likert,Sum (precomputed q8_reduced_income),0–12,Listwise,0.74,NA
+Exploratory moderator,HCW in household,Derived from household roster,1,Binary,Any household member is healthcare worker = 1,0/1,Listwise,—,Used as moderator in §2.3.7 stigma × HCW interaction
+Exploratory moderator,Supportive community,Site mean of individual q52 sum scores,—,Continuous (site aggregate),Site mean of respondent-summed support items,1.60–3.59 (site means),N/A (no site missing),—,Site-level (level-2) covariate
+Exploratory moderator,Stigma — within-site component,Group-mean centred q51 stigma sum,—,Continuous,Individual stigma sum minus site mean,—,Same as worry_safety_stigma,—,Used in §2.3.7 contextual decomposition
+Exploratory moderator,Stigma — between-site component,Site mean of q51 stigma sum,—,Continuous,Site mean of stigma sum scores,—,N/A,—,Used in §2.3.7 contextual decomposition; site means by k=13
+Descriptive (not modelled),Household size,hhmembers_tot,1,Count,Direct,1–20+,Listwise,—,NA
+Recoded,q22 compliance items,q22_1 to q22_9,9,0–4 Likert,Values ≥ 90 recoded to NA before scoring,—,—,—,Special-value handling
+Recoded,q21 awareness,q21_1 to q21_14,14,1/2/3 (yes/no/don't know),Don't know → NA; item excluded from analysis (>50% missing),—,Excluded,—,Special-value handling
+Recoded,q28/q29 trust,"q28_prevention, q29_health_system",2,0–4 Likert,Values ≥ 90 recoded to NA,—,—,—,Special-value handling

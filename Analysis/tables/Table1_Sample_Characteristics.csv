@@ -1,0 +1,61 @@
+variable,test_name,var_type,row_type,var_label,label,stat_0,stat_1,stat_2,stat_3,estimate,parameter,statistic,conf.low,conf.high,p.value
+age,kruskal.test,continuous,label,age,age,38 (12),39 (12),39 (13),35 (12),NA,2,35.502068296800616,NA,NA,1.9535468064970626e-8
+female,chisq.test.no.correct,dichotomous,label,female,female,867 (60%),373 (62%),218 (48%),276 (70%),NA,2,46.48081649856948,NA,NA,8.06898559510005e-11
+ethnicity_minority,chisq.test.no.correct,dichotomous,label,ethnicity_minority,ethnicity_minority,717 (59%),283 (77%),346 (76%),88 (23%),NA,2,320.9569038646609,NA,NA,2.0188026280125314e-70
+education,chisq.test.no.correct,categorical,label,education,education,NA,NA,NA,NA,NA,12,300.16096084007586,NA,NA,4.344390291774907e-57
+education,chisq.test.no.correct,categorical,level,education,0,60 (4.2%),3 (0.5%),54 (12%),3 (0.8%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,1,70 (4.9%),13 (2.2%),47 (10%),10 (2.6%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,2,127 (8.8%),40 (6.7%),62 (14%),25 (6.5%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,3,654 (45%),369 (62%),99 (22%),186 (48%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,4,229 (16%),70 (12%),105 (23%),54 (14%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,5,241 (17%),97 (16%),62 (14%),82 (21%),NA,NA,NA,NA,NA,NA
+education,chisq.test.no.correct,categorical,level,education,6,58 (4.0%),5 (0.8%),27 (5.9%),26 (6.7%),NA,NA,NA,NA,NA,NA
+employment,chisq.test.no.correct,categorical,label,employment,employment,NA,NA,NA,NA,NA,6,108.48035172116353,NA,NA,4.24046355559676e-21
+employment,chisq.test.no.correct,categorical,level,employment,Full-time,407 (30%),98 (18%),137 (31%),172 (44%),NA,NA,NA,NA,NA,NA
+employment,chisq.test.no.correct,categorical,level,employment,Part-time/casual,468 (34%),173 (33%),163 (37%),132 (34%),NA,NA,NA,NA,NA,NA
+employment,chisq.test.no.correct,categorical,level,employment,Student,53 (3.9%),19 (3.6%),18 (4.0%),16 (4.1%),NA,NA,NA,NA,NA,NA
+employment,chisq.test.no.correct,categorical,level,employment,Not working,437 (32%),241 (45%),128 (29%),68 (18%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,label,comorbidity,comorbidity,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,0,"1,070 (73%)",458 (75%),298 (65%),314 (79%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,1,294 (20%),120 (20%),114 (25%),60 (15%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,2,75 (5.1%),27 (4.4%),34 (7.4%),14 (3.5%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,3,19 (1.3%),2 (0.3%),12 (2.6%),5 (1.3%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,4,3 (0.2%),0 (0%),1 (0.2%),2 (0.5%),NA,NA,NA,NA,NA,NA
+comorbidity,fisher.test,categorical,level,comorbidity,5,1 (<0.1%),0 (0%),1 (0.2%),0 (0%),NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,label,gen_health,gen_health,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,level,gen_health,1,4 (0.3%),3 (0.5%),1 (0.2%),0 (0%),NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,level,gen_health,2,23 (1.6%),1 (0.2%),9 (2.0%),13 (3.3%),NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,level,gen_health,3,380 (26%),47 (7.7%),130 (28%),203 (52%),NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,level,gen_health,4,715 (49%),330 (54%),252 (55%),133 (34%),NA,NA,NA,NA,NA,NA
+gen_health,fisher.test,categorical,level,gen_health,5,336 (23%),226 (37%),65 (14%),45 (11%),NA,NA,NA,NA,NA,NA
+livelihood_disruption,kruskal.test,continuous,label,livelihood_disruption,livelihood_disruption,2.58 (2.61),2.65 (2.77),2.42 (2.43),2.65 (2.54),NA,2,1.6947239378105756,NA,NA,0.42854395437292403
+perceived_risk,kruskal.test,continuous,label,perceived_risk,perceived_risk,8.2 (6.3),8.8 (6.7),8.6 (5.7),6.9 (6.0),NA,2,25.667387011872066,NA,NA,2.669302098801716e-6
+risk_self,chisq.test.no.correct,categorical,label,risk_self,risk_self,NA,NA,NA,NA,NA,4,19.099929657381896,NA,NA,7.51197241239909e-4
+risk_self,chisq.test.no.correct,categorical,level,risk_self,0,107 (7.4%),37 (6.1%),51 (11%),19 (5.0%),NA,NA,NA,NA,NA,NA
+risk_self,chisq.test.no.correct,categorical,level,risk_self,1,729 (51%),318 (53%),231 (51%),180 (47%),NA,NA,NA,NA,NA,NA
+risk_self,chisq.test.no.correct,categorical,level,risk_self,2,603 (42%),249 (41%),173 (38%),181 (48%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,label,health_trust,health_trust,NA,NA,NA,NA,NA,16,887.8079715362151,NA,NA,1.1231259113395048e-178
+health_trust,chisq.test.no.correct,categorical,level,health_trust,0,68 (4.8%),5 (0.9%),61 (14%),2 (0.5%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,1,71 (5.1%),3 (0.5%),68 (15%),0 (0%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,2,147 (10%),35 (6.1%),109 (24%),3 (0.8%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,3,109 (7.8%),22 (3.9%),80 (18%),7 (1.8%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,4,254 (18%),126 (22%),95 (21%),33 (8.5%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,5,123 (8.8%),70 (12%),16 (3.6%),37 (9.5%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,6,363 (26%),228 (40%),10 (2.2%),125 (32%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,7,86 (6.1%),29 (5.1%),3 (0.7%),54 (14%),NA,NA,NA,NA,NA,NA
+health_trust,chisq.test.no.correct,categorical,level,health_trust,8,183 (13%),53 (9.3%),3 (0.7%),127 (33%),NA,NA,NA,NA,NA,NA
+worry_health_fear,kruskal.test,continuous,label,worry_health_fear,worry_health_fear,1.69 (2.66),1.03 (2.20),2.77 (3.04),1.46 (2.45),NA,2,142.37621111035034,NA,NA,1.211709688046621e-31
+worry_economic,kruskal.test,continuous,label,worry_economic,worry_economic,2.62 (3.46),2.10 (3.23),3.68 (3.85),2.23 (3.05),NA,2,69.62282666711928,NA,NA,7.613691611719202e-16
+worry_basic_needs,kruskal.test,continuous,label,worry_basic_needs,worry_basic_needs,1.32 (2.08),0.75 (1.44),2.63 (2.60),0.65 (1.40),NA,2,253.333670423296,NA,NA,9.756463573839972e-56
+worry_social,kruskal.test,continuous,label,worry_social,worry_social,2.58 (2.42),2.65 (2.38),3.00 (2.56),1.96 (2.16),NA,2,39.9573693032013,NA,NA,2.1055594111546093e-9
+worry_safety_stigma,fisher.test,categorical,label,worry_safety_stigma,worry_safety_stigma,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,0,"1,070 (76%)",490 (84%),274 (62%),306 (81%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,1,154 (11%),58 (9.9%),60 (14%),36 (9.6%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,2,78 (5.6%),22 (3.8%),37 (8.4%),19 (5.1%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,3,25 (1.8%),7 (1.2%),14 (3.2%),4 (1.1%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,4,29 (2.1%),4 (0.7%),16 (3.6%),9 (2.4%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,5,4 (0.3%),0 (0%),4 (0.9%),0 (0%),NA,NA,NA,NA,NA,NA
+worry_safety_stigma,fisher.test,categorical,level,worry_safety_stigma,6,41 (2.9%),3 (0.5%),36 (8.2%),2 (0.5%),NA,NA,NA,NA,NA,NA
+depression,kruskal.test,continuous,label,depression,depression,3.7 (5.6),3.5 (5.0),4.1 (6.2),3.7 (5.9),NA,2,0.7476815661140717,NA,NA,0.688086458130293
+anxiety,kruskal.test,continuous,label,anxiety,anxiety,3.6 (5.0),3.7 (5.2),4.2 (5.0),2.8 (4.6),NA,2,28.330705813893115,NA,NA,7.047991932707944e-7
+stress,kruskal.test,continuous,label,stress,stress,5.4 (6.3),5.2 (6.1),6.2 (6.5),4.9 (6.1),NA,2,15.239132318732018,NA,NA,4.907546942629629e-4

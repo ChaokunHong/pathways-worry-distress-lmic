@@ -1,0 +1,42 @@
+# ── Raw and individual-level data ─────────────────────────────────────────
+# Never commit SPEAR individual-level files.
+Data/
+*.dta
+spear_analysis_augmented.*
+mi_object*.rds
+
+# ── Derived analytic objects (contain imputed individual-level values) ────
+Analysis/output/
+*_results.rds
+forest_plot_data.rds
+figure1_panelB_plot.rds
+
+# ── OS / editor cruft ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.Rhistory
+.RData
+.Ruserdata
+*.swp
+*.swo
+~$*
+.vscode/
+.idea/
+.Rproj.user/
+
+# ── Build artefacts we don't want tracked ─────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+
+# ── Private Word drafts ───────────────────────────────────────────────────
+*.docx
+manuscript.docx
+
+# ── Archive / legacy directories (kept locally, not pushed) ───────────────
+_archive_prior_versions/
+Thesis/archive/
+Analysis/tables/archive*
+Analysis/tables/archive_14sites/
+Analysis/tables/archive_pre_v7/

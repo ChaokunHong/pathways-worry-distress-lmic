@@ -1,0 +1,7 @@
+model,level,cfi,tli,rmsea,srmr,chisq,df,delta_cfi,delta_rmsea
+DASS-21 (3-factor),Configural,0.867,0.85,0.062,0.06,3076,558,NA,NA
+DASS-21 (3-factor),Metric (equal loadings),0.86,0.852,0.062,0.086,3306.5,594,-0.007000000000000006,0
+DASS-21 (3-factor),Scalar (equal loadings + thresholds),0.829,0.829,0.066,0.091,3733.8,630,-0.031000000000000028,0.0040000000000000036
+Worry (5-factor),Configural,0.807,0.773,0.08,0.095,3570.3,537,NA,NA
+Worry (5-factor),Metric (equal loadings),0.802,0.781,0.079,0.102,3742.7,569,-0.0050000000000000044,-0.0010000000000000009
+Worry (5-factor),Scalar (equal loadings + thresholds),0.771,0.76,0.083,0.105,4120.3,601,-0.031000000000000028,0.0040000000000000036

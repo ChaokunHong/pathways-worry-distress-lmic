@@ -1,0 +1,16 @@
+outcome,term,ref_beta,min_loo_beta,max_loo_beta,max_abs_delta,sign_flips
+z_anxiety,worry_basic_needs,0.03551986023205115,0.0174,0.0547,0.0192,0
+z_anxiety,worry_economic,0.024311850484823153,-0.0026,0.0291,0.0269,1
+z_anxiety,worry_health_fear,0.03670049013451457,0.0123,0.0679,0.0312,0
+z_anxiety,worry_safety_stigma,0.10098895840592423,0.0782,0.1739,0.0729,0
+z_anxiety,worry_social,0.028978199039270108,0.0141,0.0405,0.0149,0
+z_depression,worry_basic_needs,0.06563842675995847,0.0498,0.0819,0.0162,0
+z_depression,worry_economic,0.04148422196040215,0.0154,0.0498,0.0261,0
+z_depression,worry_health_fear,-0.04781254446162562,-0.0635,-0.0264,0.0215,0
+z_depression,worry_safety_stigma,0.1506946325523793,0.1333,0.1832,0.0325,0
+z_depression,worry_social,0.04195364620927105,0.0259,0.0579,0.016,0
+z_stress,worry_basic_needs,0.053005772834471596,0.0357,0.0736,0.0206,0
+z_stress,worry_economic,0.04857804496791096,0.0205,0.0537,0.0281,0
+z_stress,worry_health_fear,-8.151544876583115e-4,-0.0173,0.0271,0.0279,5
+z_stress,worry_safety_stigma,0.030618852210361362,0.008,0.0508,0.0226,0
+z_stress,worry_social,0.045892832111902586,0.0346,0.0563,0.0113,0

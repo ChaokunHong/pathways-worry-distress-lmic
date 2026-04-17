@@ -1,0 +1,109 @@
+sensitivity,outcome,term,estimate,conf.low,conf.high,p.value
+Aggregate worry,Depression,comorbidity,0.2528,0.1107,0.395,0.0029
+Aggregate worry,Depression,perceived_risk,0.0168,0.0015,0.0322,0.0355
+Aggregate worry,Depression,worry_total,0.0392,0.0168,0.0617,0.0042
+Aggregate worry,Depression,livelihood_disruption,0.0218,-0.0086,0.0522,0.1347
+Aggregate worry,Anxiety,comorbidity,0.258,0.1777,0.3383,0
+Aggregate worry,Anxiety,perceived_risk,0.0238,0.0025,0.0451,0.0334
+Aggregate worry,Anxiety,worry_total,0.0381,0.027,0.0491,1e-4
+Aggregate worry,Anxiety,livelihood_disruption,0.012,-0.0228,0.0468,0.4453
+Aggregate worry,Stress,comorbidity,0.2842,0.1219,0.4465,0.0032
+Aggregate worry,Stress,perceived_risk,0.0186,0.0044,0.0328,0.0176
+Aggregate worry,Stress,worry_total,0.0395,0.0273,0.0518,1e-4
+Aggregate worry,Stress,livelihood_disruption,0.0069,-0.0165,0.0304,0.5094
+Binary multilevel (OR),Depression,comorbidity,1.87,1.3512,2.5878,2e-4
+Binary multilevel (OR),Depression,perceived_risk,1.062,1.0215,1.1041,0.0024
+Binary multilevel (OR),Depression,worry_health_fear,0.9099,0.8123,1.0193,0.103
+Binary multilevel (OR),Depression,worry_economic,1.0815,0.9994,1.1703,0.0518
+Binary multilevel (OR),Depression,worry_basic_needs,1.2605,1.052,1.5103,0.0121
+Binary multilevel (OR),Depression,worry_social,1.0633,0.9594,1.1784,0.2422
+Binary multilevel (OR),Depression,worry_safety_stigma,1.1355,0.911,1.4152,0.2581
+Binary multilevel (OR),Depression,livelihood_disruption,1.0528,0.9674,1.1459,0.2332
+Binary multilevel (OR),Anxiety,comorbidity,2.0702,1.5544,2.7571,0
+Binary multilevel (OR),Anxiety,perceived_risk,1.0642,1.029,1.1007,3e-4
+Binary multilevel (OR),Anxiety,worry_health_fear,1.0732,0.9742,1.1823,0.1524
+Binary multilevel (OR),Anxiety,worry_economic,1.0692,0.9937,1.1504,0.0732
+Binary multilevel (OR),Anxiety,worry_basic_needs,1.1422,0.977,1.3352,0.0952
+Binary multilevel (OR),Anxiety,worry_social,1.0016,0.9137,1.0978,0.9735
+Binary multilevel (OR),Anxiety,worry_safety_stigma,1.1002,0.908,1.333,0.3298
+Binary multilevel (OR),Anxiety,livelihood_disruption,1.0577,0.9793,1.1425,0.1536
+Binary multilevel (OR),Stress,comorbidity,2.2872,1.5783,3.3145,0
+Binary multilevel (OR),Stress,perceived_risk,1.093,1.0367,1.1524,0.001
+Binary multilevel (OR),Stress,worry_health_fear,1.0543,0.9275,1.1984,0.4189
+Binary multilevel (OR),Stress,worry_economic,1.1049,0.9963,1.2254,0.0588
+Binary multilevel (OR),Stress,worry_basic_needs,1.1443,0.9026,1.4508,0.2655
+Binary multilevel (OR),Stress,worry_social,1.0843,0.9531,1.2335,0.2186
+Binary multilevel (OR),Stress,worry_safety_stigma,0.9326,0.7068,1.2303,0.6214
+Binary multilevel (OR),Stress,livelihood_disruption,1.0662,0.9518,1.1943,0.2685
+Multilevel (lme4),Depression,comorbidity,0.2572,0.1642,0.3502,0
+Multilevel (lme4),Depression,perceived_risk,0.0204,0.0098,0.0309,2e-4
+Multilevel (lme4),Depression,worry_health_fear,-0.0475,-0.0809,-0.0141,0.0053
+Multilevel (lme4),Depression,worry_economic,0.0421,0.0167,0.0674,0.0012
+Multilevel (lme4),Depression,worry_basic_needs,0.065,0.013,0.117,0.0144
+Multilevel (lme4),Depression,worry_social,0.0419,0.0117,0.0721,0.0065
+Multilevel (lme4),Depression,worry_safety_stigma,0.1491,0.0787,0.2195,0
+Multilevel (lme4),Depression,livelihood_disruption,0.0221,-0.0018,0.046,0.0694
+Multilevel (lme4),Anxiety,comorbidity,0.2569,0.1628,0.351,0
+Multilevel (lme4),Anxiety,perceived_risk,0.0235,0.0128,0.0341,0
+Multilevel (lme4),Anxiety,worry_health_fear,0.0349,0.0014,0.0684,0.041
+Multilevel (lme4),Anxiety,worry_economic,0.0243,-0.0014,0.05,0.0635
+Multilevel (lme4),Anxiety,worry_basic_needs,0.0369,-0.0151,0.0889,0.1641
+Multilevel (lme4),Anxiety,worry_social,0.0242,-0.006,0.0545,0.1162
+Multilevel (lme4),Anxiety,worry_safety_stigma,0.1031,0.0325,0.1737,0.0043
+Multilevel (lme4),Anxiety,livelihood_disruption,0.0169,-0.0073,0.0411,0.1708
+Multilevel (lme4),Stress,comorbidity,0.2599,0.1701,0.3497,0
+Multilevel (lme4),Stress,perceived_risk,0.0211,0.0109,0.0312,1e-4
+Multilevel (lme4),Stress,worry_health_fear,-0.0016,-0.0339,0.0307,0.9237
+Multilevel (lme4),Stress,worry_economic,0.049,0.0245,0.0735,1e-4
+Multilevel (lme4),Stress,worry_basic_needs,0.0526,0.0023,0.103,0.0406
+Multilevel (lme4),Stress,worry_social,0.0456,0.0165,0.0748,0.0022
+Multilevel (lme4),Stress,worry_safety_stigma,0.0303,-0.0378,0.0984,0.3831
+Multilevel (lme4),Stress,livelihood_disruption,0.0084,-0.0147,0.0314,0.4753
+Excluding overlapping items,Depression,comorbidity,0.2599,0.115,0.4048,0.0028
+Excluding overlapping items,Depression,perceived_risk,0.0223,0.0106,0.034,0.0028
+Excluding overlapping items,Depression,worry_health_fear,-0.0385,-0.1325,0.0554,0.3726
+Excluding overlapping items,Depression,worry_economic,0.0436,-0.0203,0.1075,0.153
+Excluding overlapping items,Depression,worry_basic_needs,0.0991,0.0269,0.1712,0.0129
+Excluding overlapping items,Depression,worry_social_excl,0.0072,-0.0618,0.0762,0.8199
+Excluding overlapping items,Depression,worry_stigma_excl,0.2245,-0.0098,0.4589,0.0583
+Excluding overlapping items,Depression,livelihood_disruption,0.023,-0.011,0.057,0.1551
+Excluding overlapping items,Anxiety,comorbidity,0.2555,0.1672,0.3438,1e-4
+Excluding overlapping items,Anxiety,perceived_risk,0.0229,0.0076,0.0382,0.0096
+Excluding overlapping items,Anxiety,worry_health_fear,0.0469,-0.0438,0.1376,0.2681
+Excluding overlapping items,Anxiety,worry_economic,0.0312,-0.0168,0.0791,0.1703
+Excluding overlapping items,Anxiety,worry_basic_needs,0.0522,-0.0234,0.1278,0.1516
+Excluding overlapping items,Anxiety,worry_social_excl,0.0029,-0.0626,0.0683,0.9237
+Excluding overlapping items,Anxiety,worry_stigma_excl,0.1209,-0.1368,0.3786,0.3142
+Excluding overlapping items,Anxiety,livelihood_disruption,0.0183,-0.0217,0.0583,0.3189
+Excluding overlapping items,Stress,comorbidity,0.2885,0.1186,0.4584,0.0039
+Excluding overlapping items,Stress,perceived_risk,0.021,0.0081,0.0338,0.0064
+Excluding overlapping items,Stress,worry_health_fear,0.0191,-0.0689,0.1072,0.6308
+Excluding overlapping items,Stress,worry_economic,0.0476,-0.0193,0.1146,0.1382
+Excluding overlapping items,Stress,worry_basic_needs,0.0643,-0.0089,0.1376,0.078
+Excluding overlapping items,Stress,worry_social_excl,0.0251,-0.0449,0.0952,0.4402
+Excluding overlapping items,Stress,worry_stigma_excl,0.0641,-0.0947,0.2229,0.3832
+Excluding overlapping items,Stress,livelihood_disruption,0.0063,-0.022,0.0347,0.6176
+Complete case,Depression,comorbidity,0.2611,0.1127,0.4096,0.0031
+Complete case,Depression,perceived_risk,0.0225,0.0115,0.0335,0.0019
+Complete case,Depression,worry_health_fear,-0.0509,-0.1391,0.0372,0.2201
+Complete case,Depression,worry_economic,0.035,-0.0328,0.1029,0.2658
+Complete case,Depression,worry_basic_needs,0.0752,0.0128,0.1377,0.0233
+Complete case,Depression,worry_social,0.0404,-0.0205,0.1013,0.169
+Complete case,Depression,worry_safety_stigma,0.168,0.0599,0.2761,0.0078
+Complete case,Depression,livelihood_disruption,0.0205,-0.0148,0.0559,0.2143
+Complete case,Anxiety,comorbidity,0.2567,0.17,0.3435,1e-4
+Complete case,Anxiety,perceived_risk,0.0229,0.0083,0.0376,0.0077
+Complete case,Anxiety,worry_health_fear,0.0369,-0.0492,0.1229,0.3536
+Complete case,Anxiety,worry_economic,0.0243,-0.0295,0.0782,0.3255
+Complete case,Anxiety,worry_basic_needs,0.0354,-0.0347,0.1054,0.2826
+Complete case,Anxiety,worry_social,0.0294,-0.0164,0.0752,0.1816
+Complete case,Anxiety,worry_safety_stigma,0.1008,-0.0548,0.2564,0.1701
+Complete case,Anxiety,livelihood_disruption,0.0166,-0.0246,0.0577,0.3759
+Complete case,Stress,comorbidity,0.2877,0.1172,0.4582,0.004
+Complete case,Stress,perceived_risk,0.0208,0.0089,0.0327,0.0044
+Complete case,Stress,worry_health_fear,0.0139,-0.0742,0.1021,0.726
+Complete case,Stress,worry_economic,0.0412,-0.0256,0.108,0.1909
+Complete case,Stress,worry_basic_needs,0.0595,-0.0123,0.1314,0.0937
+Complete case,Stress,worry_social,0.0485,-0.0119,0.1089,0.1037
+Complete case,Stress,worry_safety_stigma,0.0372,-0.0595,0.1339,0.3947
+Complete case,Stress,livelihood_disruption,0.0039,-0.0242,0.032,0.7521

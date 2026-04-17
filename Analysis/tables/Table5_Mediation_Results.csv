@@ -1,0 +1,6 @@
+pathway,label,ACME,ACME_lo,ACME_hi,ACME_p,ade,ade_ci_low,ade_ci_high,ade_p,prop_med,total,n,acme,acme_ci_low,acme_ci_high,acme_p,pct_mediated,prop_mediated,pct_lab
+Livelihood -> Economic -> Depression,Livelihood -> Economic -> Depression,0.0347,0.0209,0.0514,0,0.0224,-0.0058,0.0467,0.124,0.607,0.0571,1340,0.0347,0.0209,0.0514,0,0.607,0.607,61%
+Livelihood -> Basic needs -> Depression,Livelihood -> Basic needs -> Depression,0.026,0.0158,0.0391,0,0.0299,0.007,0.053900000000000003,0.02,0.465,0.056,1411,0.026,0.0158,0.0391,0,0.465,0.465,46%
+Risk -> Health fear -> Anxiety,Risk -> Health fear -> Anxiety,0.1018,0.0594,0.1457,0,0.1503,0.0565,0.2422,0,0.404,0.2521,1376,0.1018,0.0594,0.1457,0,0.404,0.404,40%
+Risk -> Health fear -> Stress,Risk -> Health fear -> Stress,0.0898,0.0577,0.1293,0,0.1606,0.064,0.2515,0.002,0.359,0.2505,1376,0.0898,0.0577,0.1293,0,0.359,0.359,36%
+Risk -> Stigma -> Depression,Risk -> Stigma -> Depression,0.1052,0.0659,0.1487,0,0.0261,-0.0569,0.1158,0.55,0.801,0.1313,1381,0.1052,0.0659,0.1487,0,0.801,0.801,80%

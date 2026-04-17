@@ -1,0 +1,4 @@
+outcome,lr_chisq,df,p
+z_depression,10.008,3,0.0185
+z_anxiety,7.788,3,0.0506
+z_stress,5.195,3,0.158

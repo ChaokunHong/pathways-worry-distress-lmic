@@ -1,0 +1,16 @@
+term,outcome,estimate_mi,p_mi,estimate_cc,p_cc,sign_agree,both_sig05
+worry_health_fear,Depression,-0.0106,0.3949,-0.0475,0.0053,TRUE,FALSE
+worry_economic,Depression,0.0284,0.006,0.0421,0.0012,TRUE,TRUE
+worry_basic_needs,Depression,0.0743,2e-4,0.065,0.0144,TRUE,TRUE
+worry_social,Depression,0.051,0,0.0419,0.0065,TRUE,TRUE
+worry_safety_stigma,Depression,0.0906,0.0014,0.1491,0,TRUE,TRUE
+worry_health_fear,Anxiety,0.0551,0,0.0349,0.041,TRUE,TRUE
+worry_economic,Anxiety,0.0129,0.2227,0.0243,0.0635,TRUE,FALSE
+worry_basic_needs,Anxiety,0.0373,0.0676,0.0369,0.1641,TRUE,FALSE
+worry_social,Anxiety,0.0427,4e-4,0.0242,0.1162,TRUE,FALSE
+worry_safety_stigma,Anxiety,0.0746,0.008,0.1031,0.0043,TRUE,TRUE
+worry_health_fear,Stress,0.03,0.0157,-0.0016,0.9237,FALSE,FALSE
+worry_economic,Stress,0.033,0.0014,0.049,1e-4,TRUE,TRUE
+worry_basic_needs,Stress,0.0469,0.0191,0.0526,0.0406,TRUE,TRUE
+worry_social,Stress,0.068,0,0.0456,0.0022,TRUE,TRUE
+worry_safety_stigma,Stress,0.0213,0.4441,0.0303,0.3831,TRUE,FALSE

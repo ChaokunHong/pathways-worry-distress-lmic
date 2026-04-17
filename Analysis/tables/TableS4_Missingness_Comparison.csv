@@ -1,0 +1,9 @@
+Variable,Complete_mean,Missing_mean,p_value
+z_depression,-0.005,-0.002,0.2855
+z_anxiety,-0.005,-0.004,0.7664
+z_stress,-0.011,0.004,0.6677
+age,37.56,39.304,0.001
+perceived_risk,8.119,8.544,0.2161
+comorbidity,0.342,0.365,0.2883
+livelihood_disruption,2.545,2.605,0.583
+country (chi-sq),NA,NA,0

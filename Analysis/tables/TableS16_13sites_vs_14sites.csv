@@ -1,0 +1,16 @@
+term,outcome,beta_14,p_14,beta_13,p_13,p_adj_13,delta_beta
+worry_health_fear,z_depression,-0.0095,0.4384,-0.0106,0.3949,0.4231071428571428,-0.0011
+worry_economic,z_depression,0.0263,0.0138,0.0284,0.006,0.01125,0.0021
+worry_basic_needs,z_depression,0.0757,2e-4,0.0743,2e-4,7.5e-4,-0.0014
+worry_social,z_depression,0.0551,0,0.051,0,0,-0.0041
+worry_safety_stigma,z_depression,0.0975,4e-4,0.0906,0.0014,0.003,-0.0069
+worry_health_fear,z_anxiety,0.0565,0,0.0551,0,0,-0.0014
+worry_economic,z_anxiety,0.0125,0.247,0.0129,0.2227,0.25696153846153846,4e-4
+worry_basic_needs,z_anxiety,0.0364,0.0758,0.0373,0.0676,0.08449999999999999,9e-4
+worry_social,z_anxiety,0.0425,7e-4,0.0427,4e-4,0.0012000000000000001,2e-4
+worry_safety_stigma,z_anxiety,0.0767,0.0059,0.0746,0.008,0.013333333333333334,-0.0021
+worry_health_fear,z_stress,0.0316,0.0095,0.03,0.0157,0.023549999999999998,-0.0016
+worry_economic,z_stress,0.0312,0.0025,0.033,0.0014,0.003,0.0018
+worry_basic_needs,z_stress,0.046,0.0198,0.0469,0.0191,0.026045454545454542,9e-4
+worry_social,z_stress,0.07,0,0.068,0,0,-0.002
+worry_safety_stigma,z_stress,0.0292,0.2868,0.0213,0.4441,0.4441,-0.0079

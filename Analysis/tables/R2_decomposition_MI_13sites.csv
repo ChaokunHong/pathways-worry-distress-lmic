@@ -1,0 +1,13 @@
+outcome,model,R2m,R2c
+z_depression,M0,0.0049,0.1329
+z_depression,M1,0.0759,0.1892
+z_depression,M2,0.1104,0.2157
+z_depression,M3,0.2339,0.2964
+z_anxiety,M0,0.01,0.0707
+z_anxiety,M1,0.0862,0.1293
+z_anxiety,M2,0.1446,0.1842
+z_anxiety,M3,0.2577,0.2619
+z_stress,M0,0.0052,0.1553
+z_stress,M1,0.0729,0.202
+z_stress,M2,0.1234,0.2359
+z_stress,M3,0.2524,0.3159

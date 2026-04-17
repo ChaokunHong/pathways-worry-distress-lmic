@@ -1,0 +1,4 @@
+spec,CFI,RMSEA,post_check,heywood
+5F-MLR (continuous),0.837,0.07,TRUE,none
+5F-WLSMV (ordered),0.939,0.082,NA,
+4F-WLSMV (merged BN+ECN),0.929,0.088,TRUE,tbd

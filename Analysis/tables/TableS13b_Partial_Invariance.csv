@@ -1,0 +1,11 @@
+model,step,freed_intercept,n_freed,cfi_scaled,delta_cfi_from_metric,rmsea_scaled,partial_invariance_supported
+DASS-21 (3-factor),0,(full scalar — all 21 intercepts equal),0,0.829,-0.031,0.066,No
+DASS-21 (3-factor),1,q47_15,1,0.843,-0.017,0.064,No
+DASS-21 (3-factor),2,"q47_15, q47_1",2,0.846,-0.014,0.063,No
+DASS-21 (3-factor),3,"q47_15, q47_1, q47_8",3,0.849,-0.011,0.063,No
+DASS-21 (3-factor),4,"q47_15, q47_1, q47_8, q47_14",4,0.852,-0.008,0.062,Yes
+Worry (5-factor),0,(full scalar — all 21 intercepts equal),0,0.771,-0.031,0.083,No
+Worry (5-factor),1,q51_8_teaching,1,0.779,-0.023,0.081,No
+Worry (5-factor),2,"q51_8_teaching, q51_2_quarantine",2,0.783,-0.019,0.081,No
+Worry (5-factor),3,"q51_8_teaching, q51_2_quarantine, q51_3_infected",3,0.787,-0.015,0.08,No
+Worry (5-factor),4,"q51_8_teaching, q51_2_quarantine, q51_3_infected, q51_9_children_home",4,0.792,-0.01,0.079,Yes
