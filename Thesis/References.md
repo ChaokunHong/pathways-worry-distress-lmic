@@ -73,6 +73,36 @@
 
 45. Enders CK, Tofighi D. Centering predictor variables in cross-sectional multilevel models: a new look at an old issue. Psychol Methods. 2007;12(2):121-138. doi:10.1037/1082-989X.12.2.121
 
+46. Link BG, Phelan JC. Conceptualizing stigma. Annu Rev Sociol. 2001;27:363-385. doi:10.1146/annurev.soc.27.1.363
+
+47. Yang LH, Kleinman A, Link BG, Phelan JC, Lee S, Good B. Culture and stigma: adding moral experience to stigma theory. Soc Sci Med. 2007;64(7):1524-1535. doi:10.1016/j.socscimed.2006.11.013
+
+48. Ridley M, Rao G, Schilbach F, Patel V. Poverty, depression, and anxiety: causal evidence and mechanisms. Science. 2020;370(6522):eaay0214. doi:10.1126/science.aay0214
+
+49. Jones AD. Food insecurity and mental health status: a global analysis of 149 countries. Am J Prev Med. 2017;53(2):264-273. doi:10.1016/j.amepre.2017.04.008
+
+50. Lund C, De Silva M, Plagerson S, Cooper S, Chisholm D, Das J, Knapp M, Patel V. Poverty and mental disorders: breaking the cycle in low-income and middle-income countries. Lancet. 2011;378(9801):1502-1514. doi:10.1016/S0140-6736(11)60754-X
+
+51. Singla DR, Kohrt BA, Murray LK, Anand A, Chorpita BF, Patel V. Psychological treatments for the world: lessons from low- and middle-income countries. Annu Rev Clin Psychol. 2017;13:149-181. doi:10.1146/annurev-clinpsy-032816-045217
+
+52. Chibanda D, Weiss HA, Verhey R, Simms V, Munjoma R, Rusakaniko S, Chingono A, Munetsi E, Bere T, Manda E, Abas M, Araya R. Effect of a primary care-based psychological intervention on symptoms of common mental disorders in Zimbabwe: a randomized clinical trial. JAMA. 2016;316(24):2618-2626. doi:10.1001/jama.2016.19102
+
+53. Bagcchi S. Stigma during the COVID-19 pandemic. Lancet Infect Dis. 2020;20(7):782. doi:10.1016/S1473-3099(20)30498-9
+
+54. Kaiser BN, Haroz EE, Kohrt BA, Bolton PA, Bass JK, Hinton DE. "Thinking too much": a systematic review of a common idiom of distress. Soc Sci Med. 2015;147:170-183. doi:10.1016/j.socscimed.2015.10.044
+
+55. Haushofer J, Shapiro J. The short-term impact of unconditional cash transfers to the poor: experimental evidence from Kenya. Q J Econ. 2016;131(4):1973-2042. doi:10.1093/qje/qjw025
+
+56. Kirkbride JB, Anglin DM, Colman I, Dykxhoorn J, Jones PB, Patalay P, Pitman A, Soneson E, Steare T, Wright T, Griffiths SL. The social determinants of mental health and disorder: evidence, prevention and recommendations. World Psychiatry. 2024;23(1):58-90. doi:10.1002/wps.21160
+
+57. McGuire J, Kaiser C, Bach-Mortensen AM. A systematic review and meta-analysis of the impact of cash transfers on subjective well-being and mental health in low- and middle-income countries. Nat Hum Behav. 2022;6(3):359-370. doi:10.1038/s41562-021-01252-z
+
+58. Guan N, Guariglia A, Moore P, Xu F, Al-Janabi H. Financial stress and depression in adults: a systematic review. PLoS One. 2022;17(2):e0264041. doi:10.1371/journal.pone.0264041
+
+59. Hossain MM, Rahman M, Trisha NF, Tasnim S, Nuzhath T, Hasan NT, Clark H, Das A, McKyer ELJ, Ahmed HU, Ma P. Prevalence of anxiety and depression in South Asia during COVID-19: a systematic review and meta-analysis. Heliyon. 2021;7(4):e06677. doi:10.1016/j.heliyon.2021.e06677
+
+60. Pappa S, Chen J, Barnett J, Chang A, Dong RK, Xu W, Yin A, Chen BZ, Delios AY, Chen RZ, Miller S, Wan X, Zhang SX. A systematic review and meta-analysis of the mental health symptoms during the COVID-19 pandemic in Southeast Asia. Psychiatry Clin Neurosci. 2022;76(2):41-50. doi:10.1111/pcn.13306
+
 ---
 
 # Verification Report (updated)

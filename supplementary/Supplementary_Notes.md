@@ -50,8 +50,8 @@ on five correlated factors (health fears, economic, basic needs, social,
 safety/stigma) identical to the primary-regression decomposition in §2.2,
 with the three DASS-21 factors (depression, anxiety, stress) regressed on
 all five worry factors plus perceived risk, comorbidity, age, and gender.
-Fitted with WLSMV on ordinal indicators: CFI = 0.998, TLI = 0.998,
-RMSEA = 0.055, SRMR = 0.080 (Table S10). Although the global fit indices
+Fitted with WLSMV on ordinal indicators: CFI = 0.997, TLI = 0.998,
+RMSEA = 0.054, SRMR = 0.080 (Table S10). Although the global fit indices
 exceed conventional thresholds, the post-estimation check flagged negative
 residual variance for at least one indicator, producing a warning
 consistent with empirical under-identification at this level of
@@ -60,7 +60,7 @@ worry-sub-domain disaggregation.
 **Four-factor material-deprivation specification**: basic-needs and economic
 worry are merged into a single material-deprivation factor; the remaining
 three worry factors and the DASS-21 structure are unchanged. Fitted with
-WLSMV: CFI = 0.997, TLI = 0.998, RMSEA = 0.060. The post-estimation check
+WLSMV: CFI = 0.997, TLI = 0.997, RMSEA = 0.058. The post-estimation check
 still flags negative residual variance, indicating that the identification
 concern is *not* resolved by factor merging. Both specifications reproduce
 the directional pattern of worry → DASS-21 associations found in the

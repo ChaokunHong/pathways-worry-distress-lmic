@@ -191,11 +191,17 @@ cat("  saved.\n")
 # ═══════════════════════════════════════════════════════════════════════════════
 cat("Figure 5...\n")
 
-r2_file <- file.path(tab_dir, "R2_decomposition_multilevel.csv")
+# Primary source: MI Rubin-pooled marginal R² (m = 30). Canonical per Methods §2.3.
+r2_file <- file.path(tab_dir, "R2_decomposition_MI.csv")
+if (!file.exists(r2_file)) r2_file <- file.path(tab_dir, "R2_decomposition_multilevel.csv")
 if (!file.exists(r2_file)) r2_file <- file.path(tab_dir, "R2_decomposition.csv")
 r2 <- read_csv(r2_file, show_col_types = FALSE)
 
-if ("R2_marginal_Depression" %in% names(r2)) {
+if ("R2m_Depression" %in% names(r2)) {
+  r2l <- r2 %>% dplyr::select(model, starts_with("R2m_")) %>%
+    pivot_longer(-model, names_to = "outcome", values_to = "r2") %>%
+    mutate(outcome = gsub("R2m_", "", outcome))
+} else if ("R2_marginal_Depression" %in% names(r2)) {
   r2l <- r2 %>% dplyr::select(model, starts_with("R2_marginal")) %>%
     pivot_longer(-model, names_to = "outcome", values_to = "r2") %>%
     mutate(outcome = gsub("R2_marginal_", "", outcome))

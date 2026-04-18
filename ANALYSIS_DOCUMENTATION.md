@@ -12,7 +12,7 @@
 
 ### Research question
 
-What are the differential pathways through which a large-scale public-health shock affects psychological distress (depression, anxiety, stress) among vulnerable populations in LMICs, and do specific domains of worry — economic, health fears, basic-needs insecurity, social disruption, safety/stigma — predict distinct dimensions of distress?
+What are the differential pathways through which a large-scale public-health shock affects psychological distress (depression, anxiety, stress) among vulnerable populations in LMICs, and do specific domains of worry — health fears, economic worry, basic-needs worry, social disruption, safety/stigma — predict distinct dimensions of distress?
 
 ### Data source
 
@@ -39,7 +39,7 @@ SPEAR (Van Nuil et al. 2021, Wellcome Open Res 6:352): cross-sectional household
 | v2 (multilevel) | Multilevel mixed-effects, aggregate worry | Aggregate near-tautological |
 | **v3 (current, v23)** | **Stress-Process Model; 5 worry sub-domains; multilevel + MI Rubin-pool; partial invariance; comprehensive supplement** | **See §8** |
 
-The transition from thesis-length v8 Methods (~3,000 words) to journal-length v23 Methods (~700 words) was driven by SSM style; v8 content was redistributed into Supplementary Tables S1–S17 and Notes S1–S2.
+The transition from thesis-length v8 Methods (~3,000 words) to journal-length v23 Methods (~1,000 words, including inline IRB list and GitHub/Zenodo URLs) was driven by SSM style; v8 content was redistributed into Supplementary Tables S1–S17 and Notes S1–S2.
 
 ---
 
@@ -83,7 +83,7 @@ Multi-group CFA, MLR estimator (WLSMV precluded by sparse 4-point cells in one c
 
 | Level | DASS-21 ΔCFI | Worry 5-factor ΔCFI |
 |---|---|---|
-| Metric vs configural | −0.005 ✓ | −0.005 ✓ |
+| Metric vs configural | −0.007 ✓ | −0.005 ✓ |
 | Full scalar vs metric | −0.031 ✗ | −0.031 ✗ |
 | **Partial scalar (4 of 21 intercepts freed)** | **−0.008 ✓** | **−0.010 ✓** |
 
@@ -204,7 +204,7 @@ All p < 0.001; all FMI < 0.04.
 - **Anxiety**: fear-driven (health fears, social, safety/stigma)
 - **Stress**: reality-driven (economic, social)
 - **Social disruption**: only domain significant across all three outcomes
-- **Community context**: basic-needs (ICC 41.9%) and safety/stigma (ICC 34.8%) most clustered between sites
+- **Community context**: basic-needs (ICC 42.7%) and safety/stigma (ICC 36.0%) most clustered between sites
 - **Location moderation**: peri-urban amplifies material-type worries; remote attenuates health fears
 - **HCW household**: amplifies stigma → anxiety (β = 0.124, p = 0.025)
 - **Individual moderation**: 0/30 gender × worry or age × worry interactions survive BH-FDR
@@ -324,13 +324,17 @@ All figures have consistent `#aaaaaa` 0.5pt gray outer frame.
 - **Note S1** — k = 13 cluster-count justification (Maas–Hox, CR2 df contraction, why REML works)
 - **Note S2** — SEM specifications + post-estimation check results (both 5F and 4F fail; neither resolves the other)
 
-### Supplementary Codes / Files
+### Code and data availability
 
-- Supplementary File S1 — STROBE checklist
-- Supplementary Code S1 — Session info + package versions
-- Supplementary Code S2 — MI specification
-- Supplementary Code S3 — Variable codebook
-- Supplementary Code S4 — Full analysis scripts
+Full pipeline (26 R scripts, session info, MI specification, variable
+codebook, STROBE checklist) archived at:
+
+- GitHub: https://github.com/ChaokunHong/pathways-worry-distress-lmic
+- Zenodo snapshot: https://doi.org/10.5281/zenodo.19631187
+
+Methods §2.3 references these URLs directly; no separately-numbered
+"Supplementary Codes S1–S4" or "Supplementary File S1" (previous drafts'
+placeholder numbering has been retired).
 
 ---
 
@@ -345,7 +349,7 @@ Rscript v3_stress_process/Analysis/R/00_master.R   # 26 steps, ~26 min
 
 **Seeds**: 123 (EFA/CFA split), 2026 (MICE), 42 (mediation bootstrap).
 
-**Repository**: to be deposited on GitHub upon acceptance; commit hash pinning the pre-specification (15 tests + 5 mediation pathways) to be cited in the Data Availability Statement.
+**Repository**: https://github.com/ChaokunHong/pathways-worry-distress-lmic (private during peer review). Pinned Zenodo snapshot: **https://doi.org/10.5281/zenodo.19631187**. Raw SPEAR data are excluded per the ethics approvals listed in Methods §2.1; all aggregate outputs and scripts are reproducible from the pipeline given access to the raw `.dta` file.
 
 ---
 
@@ -372,7 +376,7 @@ COVID_19/
     │   ├── Introduction.md                       # canonical Intro (Vancouver)
     │   ├── Methods.md                            # canonical Methods
     │   ├── Methods_Supplementary_Notes.md        # Notes S1 + S2
-    │   ├── References.md                         # Vancouver-numbered [1]–[20]
+    │   ├── References.md                         # Vancouver-numbered [1]–[45], all verified ✅
     │   ├── Manuscript.md                         # auto-assembled review copy (Intro + Methods + Notes + Refs)
     │   ├── HANDOFF_FOR_NEXT_SESSION.md
     │   └── archive/                              # v1–v8 historical drafts

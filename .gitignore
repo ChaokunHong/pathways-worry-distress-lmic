@@ -34,6 +34,10 @@ Thumbs.db
 *.docx
 manuscript.docx
 
+# Submission bundle publishes pandoc-generated .docx copies of Thesis sources;
+# allow these so reviewers can download submission-ready files from the repo.
+!Submission/**/*.docx
+
 # ── Archive / legacy directories (kept locally, not pushed) ───────────────
 _archive_prior_versions/
 Thesis/archive/
