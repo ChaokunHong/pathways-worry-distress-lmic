@@ -1,6 +1,0 @@
-Analysis code: https://github.com/ChaokunHong/pathways-worry-distress-lmic
-Zenodo archive: https://doi.org/10.5281/zenodo.19631187
-Entry point: 00_master.R (26-step deterministic pipeline; full rerun ~30 min)
-R version: 4.4.3; m = 30 MICE imputations; seed = 2026; 500 bootstraps per imputation
-Data: SPEAR parent-study dataset, governed by parent-study data-sharing policy
-Ethics: Methods §2.1 inline; no separate supplementary file required

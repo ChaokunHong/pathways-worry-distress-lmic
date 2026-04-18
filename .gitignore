@@ -34,13 +34,15 @@ Thumbs.db
 *.docx
 manuscript.docx
 
-# Submission bundle publishes pandoc-generated .docx copies of Thesis sources;
-# allow these so reviewers can download submission-ready files from the repo.
-!Submission/**/*.docx
-
 # ── Archive / legacy directories (kept locally, not pushed) ───────────────
 _archive_prior_versions/
 Thesis/archive/
 Analysis/tables/archive*
 Analysis/tables/archive_14sites/
 Analysis/tables/archive_pre_v7/
+
+# ── Private / local-only workspace (not part of the reproducibility repo) ──
+# Submission bundle: journal-portal upload pack (local only, not code)
+Submission/
+# Internal session handoff notes (working scratch, not reproducibility doc)
+Thesis/HANDOFF_FOR_NEXT_SESSION.md
